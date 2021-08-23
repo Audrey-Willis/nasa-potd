@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nasa-potd/static/css/main.babced88.chunk.css",
-    "main.js": "/nasa-potd/static/js/main.c2603b72.chunk.js",
-    "main.js.map": "/nasa-potd/static/js/main.c2603b72.chunk.js.map",
+    "main.css": "/nasa-potd/static/css/main.563ccd2b.chunk.css",
+    "main.js": "/nasa-potd/static/js/main.a162acbc.chunk.js",
+    "main.js.map": "/nasa-potd/static/js/main.a162acbc.chunk.js.map",
     "runtime-main.js": "/nasa-potd/static/js/runtime-main.2262d6a4.js",
     "runtime-main.js.map": "/nasa-potd/static/js/runtime-main.2262d6a4.js.map",
     "static/js/2.bb9e5827.chunk.js": "/nasa-potd/static/js/2.bb9e5827.chunk.js",
     "static/js/2.bb9e5827.chunk.js.map": "/nasa-potd/static/js/2.bb9e5827.chunk.js.map",
     "index.html": "/nasa-potd/index.html",
-    "static/css/main.babced88.chunk.css.map": "/nasa-potd/static/css/main.babced88.chunk.css.map",
+    "static/css/main.563ccd2b.chunk.css.map": "/nasa-potd/static/css/main.563ccd2b.chunk.css.map",
     "static/js/2.bb9e5827.chunk.js.LICENSE.txt": "/nasa-potd/static/js/2.bb9e5827.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2262d6a4.js",
     "static/js/2.bb9e5827.chunk.js",
-    "static/css/main.babced88.chunk.css",
-    "static/js/main.c2603b72.chunk.js"
+    "static/css/main.563ccd2b.chunk.css",
+    "static/js/main.a162acbc.chunk.js"
   ]
 }
