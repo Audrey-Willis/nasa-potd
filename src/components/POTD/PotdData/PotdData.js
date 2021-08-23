@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import PotdContainer from "../PotdContainer/PotdContainer";
 import {PotdDataStyle} from "./PotdDataStyle";
+import Nav from "../../Header/Nav/Nav"
 
 function PotdData() {
   const [image, setImage] = useState("");
@@ -36,6 +37,8 @@ function PotdData() {
 
   return (
     <PotdDataStyle>
+      <div className = "POTD-data">
+        <Nav/>
       <div className="datePicker">
         <p data-testid="photoText">Pick another date to see its photo!</p>
         <input
@@ -54,6 +57,7 @@ function PotdData() {
         copyright={image.copyright}
         imgUrl={image.url}
       />
+      </div>
     </PotdDataStyle>
   );
 }

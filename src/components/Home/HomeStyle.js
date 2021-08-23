@@ -8,36 +8,40 @@ export const HomeStyle = styled.div`
   align-items: center;
   text-align: center;
   margin-bottom: 10%;
-  p {
+
+  .home-paragraph {
     width: 58%;
     font-family: "Roboto", sans-serif;
+    margin-bottom:5%;
   }
-  mg {
+ .home-img {
     padding: 3%;
     background-color: black;
     border: 3px solid grey;
+    margin-bottom:10%;
   }
-  mg:hover {
+  .home-img:hover {
     width: 90%;
   }
-  button {
+  .button {
     font-size: 2rem;
     color: white;
     text-decoration: none;
   }
-  button:hover {
+  .button:hover {
     color: black;
     font-size: 2.3rem;
   }
   @media (max-width: 800px) {
-  p {
+  .home-paragraph {
     font-size: 0.9rem;
     width: 70%;
   }
-  img {
+  .home-img {
     width: 60%;
+    margin-top:
   }
-  img:hover {
+  .home-img:hover {
     width: 70%;
   }
   .button {
@@ -47,12 +51,14 @@ export const HomeStyle = styled.div`
   .button:hover {
     font-size: 1.8rem;
   }
+}
+
   @media (max-width: 500px) {
-  p {
+  .home-paragraph {
     width: 90%;
     font-size: 0.8rem;
   }
-  img {
+  .home-img {
     width: 80%;
   }
   .button {

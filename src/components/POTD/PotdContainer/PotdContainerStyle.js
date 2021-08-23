@@ -9,17 +9,17 @@ export const PotdContainerStyle = styled.div`
   text-align: center;
   margin-bottom: 10%;
 
-  h2 {
+  .POTD-second-header {
     font-size: 1rem;
   }
-  h3 {
+  .POTD-third-header {
     font-size: 0.8rem;
   }
-  p {
+  .POTD-second-header {
     width: 80%;
     font-family: "Roboto", sans-serif;
   }
-  img {
+  .POTD-img {
     padding: 3%;
     background-color: black;
     border: 3px solid grey;
