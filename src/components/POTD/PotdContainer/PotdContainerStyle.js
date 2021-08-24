@@ -19,6 +19,10 @@ export const PotdContainerStyle = styled.div`
     width: 80%;
     font-family: "Roboto", sans-serif;
   }
+  .POTD-paragraph{
+    width:80%;
+    margin-top:5%;
+  }
   .POTD-img {
     padding: 3%;
     background-color: black;

@@ -10,7 +10,7 @@ function PotdContainer({ title, date, explanation, copyright, imgUrl }) {
       <div className="photo-box">
         <img className = "POTD-img" src={imgUrl} alt="space" />
       </div>
-      <p classsName = "POTD-paragraph">{explanation}</p>
+      <p className = "POTD-paragraph">{explanation}</p>
       <p className = "POTD-paragraph">{copyright}</p>
     </PotdContainerStyle>
   );
